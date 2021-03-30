@@ -57,6 +57,7 @@
                         android:padding="10dp"
                         >
                         <ImageButton
+                            android:id="@+id/QLnhomKH"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/images"
@@ -67,6 +68,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="QL nhóm \nkhách hàng"/>
+
                     </LinearLayout>
                     <LinearLayout
                         android:background="@drawable/border"
