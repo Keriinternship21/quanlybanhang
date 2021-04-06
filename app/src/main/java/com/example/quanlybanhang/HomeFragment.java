@@ -25,6 +25,8 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home ,container, false);
         ImageButton QLNhomKH = (ImageButton)view.findViewById(R.id.QLnhomKH);
+        ImageButton QLyKH = (ImageButton)view.findViewById(R.id.QLyKhachHang);
+        //webview Quản lý nhóm khách hàng
         QLNhomKH.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +34,15 @@ public class HomeFragment extends Fragment {
                 dialogQLNKHFragment.show(getFragmentManager(),"example");
             }
         });
+        //webview Quản lý khách hàng
+        QLyKH.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                DialogQLKHFragment dialogQLKHFragment = new DialogQLKHFragment();
+                dialogQLKHFragment.show(getFragmentManager(),"example");
+            }
+        });
+        //
         return view;
     }
 
