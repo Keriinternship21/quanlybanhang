@@ -14,16 +14,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDialogFragment;
 
-public class DialogQLKHFragment extends AppCompatDialogFragment {
+public class DialogInPhieuXragment extends AppCompatDialogFragment {
 
-    static DialogQLKHFragment newInstance(){
-        return new DialogQLKHFragment();
+    static DialogInPhieuXragment newInstance(){
+        return new DialogInPhieuXragment();
     }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setStyle(DialogQLKHFragment.STYLE_NORMAL, R.style.FullsCreen);
+        setStyle(DialogInPhieuXragment.STYLE_NORMAL, R.style.FullsCreen);
     }
 
     @Nullable
